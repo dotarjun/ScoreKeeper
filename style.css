@@ -1,32 +1,10 @@
-/* :root {
-  --width: 60vw;
-}
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
-img {
-  max-width: calc(var(--width) + 1rem);
+html {
+  background: rgb(0, 221, 178, 0.5);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 221, 178, 0.5) 0%,
+    rgba(148, 187, 233, 0.9) 100%
+  );
 }
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-div {
-  background-color: rgb(161, 148, 148);
-  margin: 0.1rem;
-  width: var(--width);
-  border-radius: 0.5rem;
-  padding: 0.4rem;
-}
-
-button {
-  margin: 0 1px;
-  padding: 1rem;
-  flex-grow: 1;
-  border-radius: 8px;
-}
-.buttons {
-  display: flex;
-  justify-content: center;
-} */
